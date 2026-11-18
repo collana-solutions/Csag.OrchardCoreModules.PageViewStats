@@ -7,7 +7,7 @@
     <Company>Neolution AG</Company>
     <Product>PageViewStats - An OrchardCore module by Neolution AG</Product>
     <Description>OrchardCore module to collect and analyze page views from your visitors</Description>
-    <PackageProjectUrl>https://github.com/neolution-ch/Neolution.OrchardCoreModules.PageViewStats</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/collana-solutions/Neolution.OrchardCoreModules.PageViewStats</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
