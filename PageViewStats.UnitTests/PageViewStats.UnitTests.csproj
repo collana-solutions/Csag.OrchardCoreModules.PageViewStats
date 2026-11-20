@@ -7,9 +7,9 @@
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>Neolution.OrchardCoreModules.PageViewStats.UnitTests</RootNamespace>
+    <RootNamespace>Csag.OrchardCoreModules.PageViewStats.UnitTests</RootNamespace>
 
-    <AssemblyName>Neolution.OrchardCoreModules.PageViewStats.UnitTests</AssemblyName>
+    <AssemblyName>Csag.OrchardCoreModules.PageViewStats.UnitTests</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Neolution.OrchardCoreModules.PageViewStats\Neolution.OrchardCoreModules.PageViewStats.csproj" />
+    <ProjectReference Include="..\Csag.OrchardCoreModules.PageViewStats\Csag.OrchardCoreModules.PageViewStats.csproj" />
   </ItemGroup>
 
 </Project>
