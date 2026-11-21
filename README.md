@@ -89,7 +89,7 @@ dotnet pack --configuration Release --no-build -o ./nupkgs
 
 This repository follows the [collana-solutions release playbook](https://github.com/collana-solutions/release-playbook) (Changesets, NuGet variant):
 
-1. Every PR that changes the package needs a changeset. Run `pnpm changeset`, choose the bump type and describe the change for consumers of the package. A change that ships nothing, such as CI or repository documentation, needs an empty changeset: `pnpm changeset --empty`. CI's **Changeset Check** fails a PR without one.
+1. Every PR that changes the package needs a changeset. Run `pnpm changeset`, choose the bump type and describe the change for consumers of the package. CI's **Changeset Check** fails a PR that changes the project folder, `Directory.Build.props`, `Directory.Packages.props` or `global.json` without a changeset. Add an empty one (`pnpm changeset --empty`) when such a change ships nothing. A PR that only touches CI or repository documentation needs none.
 2. On merge to `main`, the Release workflow keeps a **"chore: version packages"** PR up to date. It bumps the version in `Csag.OrchardCoreModules.PageViewStats/package.json`, writes it into the `.csproj` with `scripts/sync-versions.mjs` and updates the `CHANGELOG.md`.
 3. Merging that PR creates the git tag and the GitHub Release, which start the **NuGet Publish** workflow. It packs the package and pushes it to nuget.org through trusted publishing.
 
