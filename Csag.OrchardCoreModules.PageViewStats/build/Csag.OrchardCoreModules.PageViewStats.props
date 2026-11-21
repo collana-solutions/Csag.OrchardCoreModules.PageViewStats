@@ -1,0 +1,13 @@
+<Project>
+
+  <!--
+    Packed as build\Csag.OrchardCoreModules.PageViewStats.props, which NuGet imports into every
+    project that references the package. OrchardCore.Application.Targets turns each
+    ModulePackageNames item into a ModuleName attribute, and Orchard Core loads the module by that
+    name, so it is the assembly name of the module.
+  -->
+  <ItemGroup>
+    <ModulePackageNames Include="Neolution.OrchardCoreModules.PageViewStats" />
+  </ItemGroup>
+
+</Project>
