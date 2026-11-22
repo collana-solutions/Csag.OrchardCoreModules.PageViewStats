@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <!-- Orchard Core takes the module ID from the assembly name. Sites store it as the ID of the
+         enabled feature, and it is also the MVC area of the routes, the prefix of the embedded
+         resources and part of the type names that YesSql stores. Changing it would disable the
+         module on existing sites and orphan their data. -->
+    <AssemblyName>Neolution.OrchardCoreModules.PageViewStats</AssemblyName>
+    <RootNamespace>Csag.OrchardCoreModules.PageViewStats</RootNamespace>
+    <PackageId>Csag.OrchardCoreModules.PageViewStats</PackageId>
+    <Version>0.5.0</Version>
+    <Product>PageViewStats - An OrchardCore module by collana solutions AG</Product>
+    <Description>OrchardCore module to collect and analyze page views from your visitors</Description>
+    <PackageTags>orchardcore orchardcore-module analytics pageviews statistics</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="OrchardCore.Admin" Version="1.5.0" />
+    <PackageReference Include="OrchardCore.Autoroute" Version="1.5.0" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.5.0" GeneratePathProperty="true" />
+    <PackageReference Include="OrchardCore.ContentManagement" Version="1.5.0" />
+    <PackageReference Include="OrchardCore.ContentTypes.Abstractions" Version="1.5.0" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\COUNTER_Robots_list.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <!-- OrchardCore.Module.Targets embeds every file of the project as a module asset. These files
+         belong to the release tooling. -->
+    <EmbeddedResource Remove="package.json;packages.lock.json;CHANGELOG.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- An application finds a module package through build\<package ID>.props, the only props file
+         NuGet imports from a package. OrchardCore.Module.Targets packs that file as
+         build\$(AssemblyName).props, which does not match the package ID, so this project packs
+         its own, which names the assembly to load. -->
+    <None Update="$(PkgOrchardCore_Module_Targets)\build\Package.Build.props" Pack="false" />
+    <None Update="build\$(PackageId).props" Pack="true" PackagePath="build\$(PackageId).props" />
+  </ItemGroup>
+
+</Project>

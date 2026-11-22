@@ -1,7 +1,7 @@
-namespace Neolution.OrchardCoreModules.PageViewStats.UnitTests
+namespace Csag.OrchardCoreModules.PageViewStats.UnitTests
 {
+    using Csag.OrchardCoreModules.PageViewStats.Services;
     using Microsoft.Extensions.DependencyInjection;
-    using Neolution.OrchardCoreModules.PageViewStats.Services;
     using Shouldly;
 
     public class BotDetectorTests

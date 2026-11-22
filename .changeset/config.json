@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@4.0.0/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    { "repo": "collana-solutions/Csag.OrchardCoreModules.PageViewStats" }
+  ],
+  "commit": false,
+  "fixed": [["@collana-solutions/csag-orchardcoremodules-pageviewstats"]],
+  "linked": [],
+  "access": "restricted",
+  "baseBranch": "main",
+  "updateInternalDependencies": "patch",
+  "ignore": [],
+  "privatePackages": { "version": true, "tag": true }
+}
