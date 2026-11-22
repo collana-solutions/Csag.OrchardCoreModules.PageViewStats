@@ -4,95 +4,95 @@
     "net6.0": {
       "MediatR.Extensions.Microsoft.DependencyInjection": {
         "type": "Direct",
-        "requested": "[11.0.0, )",
-        "resolved": "11.0.0",
-        "contentHash": "jfD2NBYvP+HiUil2DWfM4bn+bCLp4H2xvoc9aorcnn2Jpgz7Ey8RyYMpgqeF3bs6CP6t8pzb6WkF5NFF/1RLHA==",
+        "requested": "[11.1.0, )",
+        "resolved": "11.1.0",
+        "contentHash": "RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
         "dependencies": {
-          "MediatR": "11.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "MediatR": "[11.0.0, 12.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         }
       },
       "OrchardCore.Admin": {
         "type": "Direct",
-        "requested": "[1.5.0, )",
-        "resolved": "1.5.0",
-        "contentHash": "C52mNGjKl9UuqMb1IkWD5Zf7dztM6/lSo4jJReW3aDwE+V4XsajfPESHFjLuaYY3n9rlJ8Ge7SUMiLIqjQCCAA==",
+        "requested": "[1.7.2, )",
+        "resolved": "1.7.2",
+        "contentHash": "/tkyBH0WfVFr818FisblDtZ0OUl1kaLZx81yt61fQMoh65cetizXiPueg0xbkvuVkgckqIkAOvhliCAe8+3NsA==",
         "dependencies": {
-          "OrchardCore.Admin.Abstractions": "1.5.0",
-          "OrchardCore.Data.Abstractions": "1.5.0",
-          "OrchardCore.DisplayManagement": "1.5.0",
-          "OrchardCore.Module.Targets": "1.5.0",
-          "OrchardCore.Navigation.Core": "1.5.0",
-          "OrchardCore.ResourceManagement": "1.5.0",
-          "OrchardCore.Settings.Core": "1.5.0"
+          "OrchardCore.Admin.Abstractions": "1.7.2",
+          "OrchardCore.Data.Abstractions": "1.7.2",
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.Module.Targets": "1.7.2",
+          "OrchardCore.Navigation.Core": "1.7.2",
+          "OrchardCore.ResourceManagement": "1.7.2",
+          "OrchardCore.Settings.Core": "1.7.2"
         }
       },
       "OrchardCore.Autoroute": {
         "type": "Direct",
-        "requested": "[1.5.0, )",
-        "resolved": "1.5.0",
-        "contentHash": "YabT93aKFxRCC0S9gak2zDHSsq5GJyYmHvNnGuqC9yPgkjQgBpJ4Fk0Xoc8YM80iJMcyp/Bi6J2WirFemW+CJg==",
+        "requested": "[1.7.2, )",
+        "resolved": "1.7.2",
+        "contentHash": "kUn8Vhlthz4W2nH7715vWKhXO+OsOo3GsGwvCxsZOaPi6P5Oo+QIrz9bTrkBhD+kbegUdygiA3kyrm3gAYXObw==",
         "dependencies": {
-          "OrchardCore.Apis.GraphQL.Abstractions": "1.5.0",
-          "OrchardCore.Autoroute.Core": "1.5.0",
-          "OrchardCore.ContentLocalization.Abstractions": "1.5.0",
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.ContentManagement.Display": "1.5.0",
-          "OrchardCore.ContentManagement.GraphQL": "1.5.0",
-          "OrchardCore.ContentTypes.Abstractions": "1.5.0",
-          "OrchardCore.Contents.TagHelpers": "1.5.0",
-          "OrchardCore.DisplayManagement.Liquid": "1.5.0",
-          "OrchardCore.Indexing.Abstractions": "1.5.0",
-          "OrchardCore.Liquid.Abstractions": "1.5.0",
-          "OrchardCore.MetaWeblog.Abstractions": "1.5.0",
-          "OrchardCore.Module.Targets": "1.5.0",
-          "OrchardCore.ResourceManagement": "1.5.0",
-          "OrchardCore.Sitemaps.Abstractions": "1.5.0"
+          "OrchardCore.Apis.GraphQL.Abstractions": "1.7.2",
+          "OrchardCore.Autoroute.Core": "1.7.2",
+          "OrchardCore.ContentLocalization.Abstractions": "1.7.2",
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.ContentManagement.Display": "1.7.2",
+          "OrchardCore.ContentManagement.GraphQL": "1.7.2",
+          "OrchardCore.ContentTypes.Abstractions": "1.7.2",
+          "OrchardCore.Contents.TagHelpers": "1.7.2",
+          "OrchardCore.DisplayManagement.Liquid": "1.7.2",
+          "OrchardCore.Indexing.Abstractions": "1.7.2",
+          "OrchardCore.Liquid.Abstractions": "1.7.2",
+          "OrchardCore.MetaWeblog.Abstractions": "1.7.2",
+          "OrchardCore.Module.Targets": "1.7.2",
+          "OrchardCore.ResourceManagement": "1.7.2",
+          "OrchardCore.Sitemaps.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.ContentManagement": {
         "type": "Direct",
-        "requested": "[1.5.0, )",
-        "resolved": "1.5.0",
-        "contentHash": "s2GM8WTYxoMVrZfluP4l3ZAUETe+Qt3y8enQkkr7TDugSNwBOJl/7vQPf/O50g72VUDlgN3EmhVp8pgPhdQwjg==",
+        "requested": "[1.7.2, )",
+        "resolved": "1.7.2",
+        "contentHash": "yn8B+o6GGywAK/LwvBcH6IYttHxqxufqXV9KV8nJXAfut9f2wn5VjfjvHQbMrPUkIXWdwWJUyOzUCl6bgAAr+w==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.Data.YesSql": "1.5.0",
-          "OrchardCore.Infrastructure.Abstractions": "1.5.0",
-          "OrchardCore.Recipes.Abstractions": "1.5.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.Data.YesSql": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2",
+          "OrchardCore.Recipes.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.ContentTypes.Abstractions": {
         "type": "Direct",
-        "requested": "[1.5.0, )",
-        "resolved": "1.5.0",
-        "contentHash": "dbDYAaHGJgdiuz0IqTP8rQ3m2b7RxZYAo3S8Y1c/5NsLCNhjSp5l4sxfanSR1to3JSqjJDLJPwruaqzTPBNmQg==",
+        "requested": "[1.7.2, )",
+        "resolved": "1.7.2",
+        "contentHash": "xGe4YhVlzg7pXlyv7opQE3QfY2H/CI19RhN+10bJskQwuZzFEI6eo0UG1QEpfYF9+o911aXACW3SZU0Q0LVkHQ==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.ContentManagement.Display": "1.5.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.ContentManagement.Display": "1.7.2"
         }
       },
       "OrchardCore.DisplayManagement": {
         "type": "Direct",
-        "requested": "[1.5.0, )",
-        "resolved": "1.5.0",
-        "contentHash": "7Et5dimYL+oH1DQlqybq+1nKKQWg5FHl3EE5kXFvGZoM137IZif0PhHNyl8h9WsDtAnQxTG6D3mJQ77YqepZHw==",
+        "requested": "[1.7.2, )",
+        "resolved": "1.7.2",
+        "contentHash": "nKLlCJ2GoEDI4FRO8lv5coAVMzOAxmCquSZT6yF907Q+C1nDdAj6T1gF0OviKlDU+BPQ2Q2kOIxuxKngdg/OxQ==",
         "dependencies": {
-          "Castle.Core": "5.1.0",
-          "OrchardCore.DisplayManagement.Abstractions": "1.5.0",
-          "OrchardCore.Infrastructure.Abstractions": "1.5.0",
-          "OrchardCore.Liquid.Abstractions": "1.5.0",
-          "OrchardCore.Localization.Abstractions": "1.5.0",
-          "OrchardCore.Mvc.Core": "1.5.0"
+          "Castle.Core": "5.1.1",
+          "OrchardCore.DisplayManagement.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2",
+          "OrchardCore.Liquid.Abstractions": "1.7.2",
+          "OrchardCore.Localization.Abstractions": "1.7.2",
+          "OrchardCore.Mvc.Core": "1.7.2"
         }
       },
       "OrchardCore.Module.Targets": {
         "type": "Direct",
-        "requested": "[1.5.0, )",
-        "resolved": "1.5.0",
-        "contentHash": "YLzdbkzK5RvsfjxC34r74Qhsfubr6dME3GXCLQ0KvCwiCNYj2Ec0hlLh1EiHqlwXU3iGqXowFK/v0BXeuG6Q6A==",
+        "requested": "[1.7.2, )",
+        "resolved": "1.7.2",
+        "contentHash": "LoIrA6J10GWQvc3O7pyHePaUJLSb3+k+Z1M59KsXdY8rYfqchFio7lxjUMBR8z7YyVrriuCoZjW7JiTcaEOSNQ==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0"
+          "OrchardCore.Abstractions": "1.7.2"
         }
       },
       "Azure.Core": {
@@ -125,8 +125,8 @@
       },
       "Castle.Core": {
         "type": "Transitive",
-        "resolved": "5.1.0",
-        "contentHash": "31UJpTHOiWq95CDOHazE3Ub/hE/PydNWsJMwnEVTqFFP4WhAugwpaVGxzOxKgNeSUUeqS2W6lxV+q7u1pAOfXg==",
+        "resolved": "5.1.1",
+        "contentHash": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
         }
@@ -138,12 +138,12 @@
       },
       "Fluid.Core": {
         "type": "Transitive",
-        "resolved": "2.2.16",
-        "contentHash": "HvfFKnVDpeMiPRXC43GXGChqAD/aPDwaQWkZFdjl2x7U5ibaKFNhLPDIiaE+XggUwALyR6Yrojwk9V6//Tv/Fg==",
+        "resolved": "2.4.0",
+        "contentHash": "JlgYg+iS0XDK9Gm9AsnJwEkTjRn2lQTwqT3l8Mica9WoP0XRQ4cC+jgnHo4tWw6J1W5LF85nfFsbKeZoD1hPxQ==",
         "dependencies": {
           "Microsoft.Extensions.FileProviders.Abstractions": "1.1.1",
-          "Parlot": "0.0.23",
-          "TimeZoneConverter": "3.5.0"
+          "Parlot": "0.0.24",
+          "TimeZoneConverter": "6.0.1"
         }
       },
       "GraphQL": {
@@ -184,8 +184,8 @@
       },
       "Microsoft.AspNetCore.JsonPatch": {
         "type": "Transitive",
-        "resolved": "6.0.10",
-        "contentHash": "d/TRLC4nrlkMZChda9swuv1zKn33yXVxy5xz6CEaSPelpiLQXV5oCjN5zot6MF4TGDuf5N2px75j2rUghkkW6Q==",
+        "resolved": "6.0.21",
+        "contentHash": "1rdeKxPYAJzJt3jfCtV7r16kS/e8uFmtrxcaVXm7kMOK2ccL2JXEuilzaMco07KnE+fOGEV/rNjSbXOIeu0VUA==",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.1"
@@ -193,37 +193,37 @@
       },
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
         "type": "Transitive",
-        "resolved": "6.0.10",
-        "contentHash": "ok09jxzJ57s63dQtzlMGPAo4w3pTR3zZoNp0bTT0J4rKJgoJz8uhBHzr6PeCnRNWAOu0nm0b1irg5LhSDwEOBQ==",
+        "resolved": "6.0.21",
+        "contentHash": "xqHVOEKMO1ISzyuOwOEClaj6cByYIj400POd9rfEN6/jZYUBW+POTX29KmqbTPiqVOvUCiVxc8S3VyaJ+bn4lw==",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "6.0.10",
+          "Microsoft.AspNetCore.JsonPatch": "6.0.21",
           "Newtonsoft.Json": "13.0.1",
           "Newtonsoft.Json.Bson": "1.0.2"
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions": {
         "type": "Transitive",
-        "resolved": "6.0.10",
-        "contentHash": "Zdu9WF1k+nWLC4oP0VpKdiV3mj3evySdKeOMGn6kjBfmL0bVQ7kGdsFi37IYgHxIf3L3xoubmMeds7zhZI9VYw==",
+        "resolved": "6.0.21",
+        "contentHash": "6nj7bR3UCmsoPp05kMiU6qV94mF8bJzIke1RVWRQS8kelTY+dLch42PCui83Bbivvq4yCv8+ZZ/WYiUniXrcig==",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "6.0.10",
-          "Microsoft.CodeAnalysis.Razor": "6.0.10"
+          "Microsoft.AspNetCore.Razor.Language": "6.0.21",
+          "Microsoft.CodeAnalysis.Razor": "6.0.21"
         }
       },
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
         "type": "Transitive",
-        "resolved": "6.0.10",
-        "contentHash": "gEZdQRIYVzn80mvKlO7cenyZewqw3tA50kEtCxEvoUxK/piA/MVdEfViymB7lnu4Z+JepIB5GGAt/GNeLhxRYQ==",
+        "resolved": "6.0.21",
+        "contentHash": "s7jS/MyLna2YKoU5+vOz5SNH9qUIc9pqKuNL0K02E6dZEK1/QRYc9NAWg8dIKCPs2zZrr/cS+o6EjydbVSAFHw==",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.10",
-          "Microsoft.CodeAnalysis.Razor": "6.0.10",
+          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.21",
+          "Microsoft.CodeAnalysis.Razor": "6.0.21",
           "Microsoft.Extensions.DependencyModel": "6.0.0"
         }
       },
       "Microsoft.AspNetCore.Razor.Language": {
         "type": "Transitive",
-        "resolved": "6.0.10",
-        "contentHash": "w4TWifY65oAWzC8VZfDeVrfzij/hnErcFTIPtLZx4yqRn4Pqvbh6RpWCb63BGVek3TuiCCslmNlzplQt9Qb/2g=="
+        "resolved": "6.0.21",
+        "contentHash": "cQiuw887Hbhn+HdFUHojY4pEL016gw2+8C9wekqNEC4p6SBRp/nyjW4Pz2RNm0vbIWkUkl3WjtnFh44OBcxVZg=="
       },
       "Microsoft.Bcl.AsyncInterfaces": {
         "type": "Transitive",
@@ -259,10 +259,10 @@
       },
       "Microsoft.CodeAnalysis.Razor": {
         "type": "Transitive",
-        "resolved": "6.0.10",
-        "contentHash": "OAY28ZVkanjJKDtHYy8c22UGVC8sDqIdK+//mljcpb/TZrs8CyiiJMEBAoPriLFMmAUo4CvzwABKy1CI0904Ew==",
+        "resolved": "6.0.21",
+        "contentHash": "bBjY2tvIcQBakcrtrHyYU2mijC4uf0nPYkVisfg8nnX1rN0GYKgiDgE7EBxfX2hb6Hs64p/v6EPSHX0rC1ZhJg==",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "6.0.10",
+          "Microsoft.AspNetCore.Razor.Language": "6.0.21",
           "Microsoft.CodeAnalysis.CSharp": "4.0.0",
           "Microsoft.CodeAnalysis.Common": "4.0.0"
         }
@@ -274,11 +274,11 @@
       },
       "Microsoft.Data.SqlClient": {
         "type": "Transitive",
-        "resolved": "5.0.0",
-        "contentHash": "SSs/sdfcu3gwC04eNxXTZb3s4vA5JhxTx0oQh9lBamWVudSfH4NYs0Uoyndhzu726abnbHuXHUooOvgMfcbKUA==",
+        "resolved": "5.0.1",
+        "contentHash": "uu8dfrsx081cSbEevWuZAvqdmANDGJkbLBL2G3j0LAZxX1Oy8RCVAaC4Lcuak6jNicWP6CWvHqBTIEmQNSxQlw==",
         "dependencies": {
           "Azure.Identity": "1.6.0",
-          "Microsoft.Data.SqlClient.SNI.runtime": "5.0.0",
+          "Microsoft.Data.SqlClient.SNI.runtime": "5.0.1",
           "Microsoft.Identity.Client": "4.45.0",
           "Microsoft.IdentityModel.JsonWebTokens": "6.21.0",
           "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.21.0",
@@ -298,30 +298,30 @@
       },
       "Microsoft.Data.SqlClient.SNI.runtime": {
         "type": "Transitive",
-        "resolved": "5.0.0",
-        "contentHash": "1HkESJU1T/D8sJ1jlpEQRgx2SXCNyXzmUuS0hNBDyYGIAi7l8qlbaTptzSOUSXqmsz5MVQfo6+WFAIx8LQaRIQ=="
+        "resolved": "5.0.1",
+        "contentHash": "y0X5MxiNdbITJYoafJ2ruaX6hqO0twpCGR/ipiDOe85JKLU8WL4TuAQfDe5qtt3bND5Je26HnrarLSAMMnVTNg=="
       },
       "Microsoft.Data.Sqlite": {
         "type": "Transitive",
-        "resolved": "6.0.9",
-        "contentHash": "hkicTW4qEVQUgPs4qCSsd0cP1+1IiM0WRmlinnixGMUyxvIOT98BpVbQd9Ukc52q8mDEhDVam1oLa5yAofdQ1Q==",
+        "resolved": "7.0.0",
+        "contentHash": "/2UYhPUJTDjUWdCn+qiiEN672TGqa25rtnIYp9mbNI39mX47C9ArBHO3nIpa5/jO6ISy1jBzIl9Vx5Tmygu/cg==",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "6.0.9",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.0.6"
+          "Microsoft.Data.Sqlite.Core": "7.0.0",
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.2"
         }
       },
       "Microsoft.Data.Sqlite.Core": {
         "type": "Transitive",
-        "resolved": "6.0.9",
-        "contentHash": "vH2Mul/lTqCYIaLDl1ICvv8LrDl1870s7erbRjyWdMNWIzL05I+k6osKifzQpqFNkhAApjU3GgEYHuw1XZBoxA==",
+        "resolved": "7.0.0",
+        "contentHash": "WC7SANtaFTmQ/WPyhrE96h88MrH28C7kTBenDf5Eo+IR6CbWM0Uw2pR2++tyYr3qe/zSIsIYroEupB1mLg/adw==",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.6"
+          "SQLitePCLRaw.core": "2.1.2"
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions": {
         "type": "Transitive",
-        "resolved": "6.0.0",
-        "contentHash": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg=="
+        "resolved": "7.0.0",
+        "contentHash": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw=="
       },
       "Microsoft.Extensions.DependencyModel": {
         "type": "Transitive",
@@ -346,8 +346,8 @@
       },
       "Microsoft.Extensions.Logging.Abstractions": {
         "type": "Transitive",
-        "resolved": "3.1.0",
-        "contentHash": "jjo4YXRx6MIpv6DiRxJjSpl+sPP0+5VW0clMEdLyIAz44PPwrDTFrd5PZckIxIXl1kKZ2KK6IL2nkt0+ug2MQg=="
+        "resolved": "6.0.0",
+        "contentHash": "/HggWBbTwy8TgebGSX5DBZ24ndhzi93sHUBDvP1IxbZD7FDokYzdAr6+vbWGjw2XAfR2EJ1sfKUotpjHnFWPxA=="
       },
       "Microsoft.Extensions.Primitives": {
         "type": "Transitive",
@@ -468,8 +468,8 @@
       },
       "MySqlConnector": {
         "type": "Transitive",
-        "resolved": "2.1.13",
-        "contentHash": "Y3qts7mnuZ4EGEQOI4xJ1n+9ZJOmrcwD2CdqyAXuQONBkrc2ENDywE6ZBysFaRojXrnWzLXpc595+GYlN/PI9Q=="
+        "resolved": "2.2.1",
+        "contentHash": "k5wwd56u2WoIVLxeKsUHl8WS27shGluK6yLwziAnJwERnMQ5TsAFHRpr6EKEfpLwGF+FwrbmJXUdCk9+EU7Wrw=="
       },
       "NETStandard.Library": {
         "type": "Transitive",
@@ -524,8 +524,8 @@
       },
       "Newtonsoft.Json": {
         "type": "Transitive",
-        "resolved": "13.0.1",
-        "contentHash": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A=="
+        "resolved": "13.0.3",
+        "contentHash": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ=="
       },
       "Newtonsoft.Json.Bson": {
         "type": "Transitive",
@@ -537,304 +537,307 @@
       },
       "Npgsql": {
         "type": "Transitive",
-        "resolved": "6.0.7",
-        "contentHash": "HhD5q/VUJY++tCzc0eCrhtsxmUdP7NxNhUMOdYW6sqpC6NRlFLvUDf5JyRj0gOGkXe3Tn49toaisgvLqlzQ2JQ==",
+        "resolved": "7.0.0",
+        "contentHash": "tOBFksJZ2MiEz8xtDUgS5IG19jVO3nSP15QDYWiiGpXHe0PsLoQBts2Sg3hHKrrLTuw+AjsJz9iKvvGNHyKDIg==",
         "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
       "OrchardCore.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "payx/uLXygJYzzaBFynOE3dNRPsNCPXdJlkD+/XiTG+yHL8z5UG4H7fyIaGPiE+mMRSBl8M4PbMC35cKZMVn9g==",
+        "resolved": "1.7.2",
+        "contentHash": "zn2XjrRQjL96N4NBjILdbjWiiLhNE/WhU0lpiU56zc2QvRbPagWrD2l+o08Jxg5BQSOYbtBQ1ExkX70975DW3A==",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
+          "Newtonsoft.Json": "13.0.3",
           "ZString": "2.5.0"
         }
       },
       "OrchardCore.Admin.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "Ukx5Ue6emRl2oQxjdvqsanSdiQEYRwUuF9xHRmj34bdAlZ0uPSCt+3GDEpGvFRYv+CMCAsDAE0s+dt39zlPO6w==",
+        "resolved": "1.7.2",
+        "contentHash": "JCVSK83K4K4npZTaUY+VrKOXHmVlkt0VnA3jKX+aXMlNsAmQaJ8Pmj0unCpTaL5Qf6tFlqCCpisZ7yfNDsXZ1g==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0"
+          "OrchardCore.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Apis.GraphQL.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "6eV+K8AnxKtJkzg3vxYsVy6oXW4fNb4Hh8TCm6kt+lo51T8DklWDnm5osFS6CVnDtPuFisGeuRYvwsQNcSTtEQ==",
+        "resolved": "1.7.2",
+        "contentHash": "NSl/c8hWw/i1xj1BcOWXlwnbLJf6gj+vDVuITK3gKzwH61OekS/iInO/CIdoumojzpzXZStZR3mSXOFYw3wwiQ==",
         "dependencies": {
           "GraphQL": "4.8.0",
           "GraphQL.DataLoader": "4.8.0",
-          "OrchardCore.DisplayManagement.Abstractions": "1.5.0",
-          "OrchardCore.Infrastructure.Abstractions": "1.5.0"
+          "OrchardCore.DisplayManagement.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Autoroute.Core": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "S4BA3APgC+WHJbJ+Ig3tYMR1NaVzFKzlXi66jxgQZ9gYhAkytaHTJegAmDObrwAfsWEPuzcDn1ELGcRyYWYFWA==",
+        "resolved": "1.7.2",
+        "contentHash": "icnyoU0P1C5bz52gN2h0THN1Ne97YOplFSFhyoWTJKrbGhd4GmBkwRqv3RiFvOCvIIlp1d5S7SQtHQuhFO4brA==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.Data.Abstractions": "1.5.0",
-          "OrchardCore.Infrastructure.Abstractions": "1.5.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.Data.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.ContentLocalization.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "B6uxT0vP9eWk8wVcdORHmBhDpmbkUYsT5F3BM8WhIoBrolklq6pfg3q/xfEHOhz84ewbBNsh1OXMwjh40NZMZw==",
+        "resolved": "1.7.2",
+        "contentHash": "ALoglI8Td+Evq6NpQ3ot1hI+ctF/RqT9xkTASoVGS1B5AyLPo7VOHRaJUms9uy55Eh/07S3COscIjNWTG5suqA==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0",
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0"
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.ContentManagement.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "zM7d8fDTxIWDnzSCkEl0yTWkaNkuT9urTt7fOjS3MPV7XJp+S7v4/rKGePpVYobpksKkFC0KM8g3e47X54tyTw==",
+        "resolved": "1.7.2",
+        "contentHash": "kTiDfXk64tG6RCOvwtbVQCRDFjqMtxPMge4f9BKqCT1GMl4kMkqHPfq/RJd9xmXbdvUgl5slUvipVNxNm7O0hA==",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
-          "OrchardCore.Data.YesSql.Abstractions": "1.5.0"
+          "Newtonsoft.Json": "13.0.3",
+          "OrchardCore.Data.YesSql.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.ContentManagement.Display": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "FPEwNd7IH+ph58L0CdPE1/AKHdwJFHU8r6qGwB/oAnlTvzbPlG02ABi4nrOlW6L0Y/MpI9WbVxlbOzf4nqo4XQ==",
+        "resolved": "1.7.2",
+        "contentHash": "VDRu3fMDjQDW6kgTF5FoJA5CFMvlusv7zg4O210bo7D0+kFWel3wW8p1ShQlq2PV2jiAQ7GdRW1V+7uJarMFXA==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.DisplayManagement": "1.5.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.DisplayManagement": "1.7.2"
         }
       },
       "OrchardCore.ContentManagement.GraphQL": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "XJ/Jp+vLn+3snnoKOYJ6cxeVpA1ptNg5ijeg6H8ruxh3wMQJJNhVvUub18qiqbIqT0cypW7GNm08RF3x6f1pvA==",
+        "resolved": "1.7.2",
+        "contentHash": "l1CHfYnt6ODkeDkbp9e+kvwMifEMaK23bHU175H/Y74kwGoF0twb2J0TlQH5M2/XcMdHuxTN2WTGQeP3hnT3LQ==",
         "dependencies": {
-          "OrchardCore.Apis.GraphQL.Abstractions": "1.5.0",
-          "OrchardCore.ContentManagement": "1.5.0",
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.ContentManagement.Display": "1.5.0",
-          "OrchardCore.Contents.Core": "1.5.0"
+          "OrchardCore.Apis.GraphQL.Abstractions": "1.7.2",
+          "OrchardCore.ContentManagement": "1.7.2",
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.ContentManagement.Display": "1.7.2",
+          "OrchardCore.Contents.Core": "1.7.2"
         }
       },
       "OrchardCore.Contents.Core": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "d9WfrI4zSp3q6XeSzPiQjO+91bCh4c4m/Mw9fwQz+8u/AyDQbnIjPsvmo8a0qNfCOICA6wUwYWIQDnJ4F+acEg==",
+        "resolved": "1.7.2",
+        "contentHash": "thbGcHfCV8yc8JGAWdTI/EWRdVTx544uBEiGsD6sbJbvYb/VhASM5yDySHVQ3YF2oWkv6jUlC0LONELp/z/ZzA==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.DisplayManagement.Abstractions": "1.5.0",
-          "OrchardCore.Infrastructure.Abstractions": "1.5.0",
-          "YesSql.Filters.Query": "3.2.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.DisplayManagement.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2",
+          "YesSql.Filters.Query": "3.4.0"
         }
       },
       "OrchardCore.Contents.TagHelpers": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "LUW568kvY8f8DpLuPC10Tlcv75YSA4Ne1h6wgZGywCX+lGBQrm+RPLJFLo7azrkFKZFOEyT0jIFdd0fFUBPV+A==",
+        "resolved": "1.7.2",
+        "contentHash": "qWPgJ2bNTNbCFzBBu0/Rlg8A5CXtQ5IE6Xmxrq25LzBehcP34OKiR+CTM9d9RKuavv+qGfd1MvVBakqJn8Yruw==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.DisplayManagement": "1.5.0",
-          "OrchardCore.DisplayManagement.Abstractions": "1.5.0",
-          "OrchardCore.Infrastructure.Abstractions": "1.5.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.DisplayManagement.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Data": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "PJXlr9M8dh9MP61bNbAObvrOJngWpTH+5wf1WQUlQ65LES8isiwIDNzWYoYtFF/5bmixYtRmkpqxUsCdHTooWA==",
+        "resolved": "1.7.2",
+        "contentHash": "HL/vV040BoNijGmWzAF7l0+2jvW9jVjH1YTtgpkcJyeuXFY6lvlp3JRAo+nxa4Br69BLnCR++DCZ0wyRFxZ72Q==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0",
-          "OrchardCore.Data.Abstractions": "1.5.0"
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Data.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Data.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "/9xkuaqlSt5wdZeLgJJ5WLkaoTNjletdahPd4PQlPC3SH8Lju+RrHfg1yaC8+O/QvR+il9AjX/6Qo3qE5pSkHA==",
+        "resolved": "1.7.2",
+        "contentHash": "GrS2YEP96mUCcaPvM61lffCqPaseLEbCofhoxgI+XxE4ZGy5lOoQyqNKVYwNURNwh5UClQxT8f3nQZ32MsWIaQ==",
         "dependencies": {
-          "OrchardCore.Queries.Abstractions": "1.5.0"
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Queries.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Data.YesSql": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "Ig88+xWxicUXcCqj1NsNAahHoNhsWdr1W9kVBj6XYaGoGS4ElCLnRtmCVPixl1QZ/T/fpmNQu9pkb+OSIanoGQ==",
+        "resolved": "1.7.2",
+        "contentHash": "xB2XMvtb1G70R3I/OSlQlAqz8aTFv5jiF6oIT8ZaoDUCA9Z30QG5N5WWK2WtcaFsbzmqIEgjvqMgmswYZhdILg==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0",
-          "OrchardCore.Data": "1.5.0",
-          "OrchardCore.Data.YesSql.Abstractions": "1.5.0",
-          "YesSql": "3.2.0"
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Data": "1.7.2",
+          "OrchardCore.Data.YesSql.Abstractions": "1.7.2",
+          "YesSql": "3.4.0"
         }
       },
       "OrchardCore.Data.YesSql.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "pTa9wInA3BcJrmajqeO23G0aICpyL4kp0zBw9ZcKGrwZCq4AsLAiYNwmQ8rjxuR2VjYtxD2uNwa6vfu7EFAAIA==",
+        "resolved": "1.7.2",
+        "contentHash": "+MMlKD0lvd16wGUbZrnIDAsRTcHegF7Bt/WchOe6ve/LnSGUCERHOy6m3/UC0ESqI6iStu1u0kdJgNOca4rk4w==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0",
-          "OrchardCore.Data.Abstractions": "1.5.0",
-          "YesSql.Abstractions": "3.2.0"
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Data.Abstractions": "1.7.2",
+          "YesSql.Abstractions": "3.4.0"
         }
       },
       "OrchardCore.Deployment.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "SbgZHXKIL5YTl9lcZWxZj7/q1OIwqi/RtJGdHGD6WMIMK5zkAS2xYKNbKIcTMgBsCRvzAco2WCpSZY9BRE807g==",
+        "resolved": "1.7.2",
+        "contentHash": "Itl67HDsC5gSp9xIg+zOnyCKSPi+kB6wYWOxGOfLU3n5Oqmt/+jvJH8lI7vHgq0h5oUF+c4xn6P9PVgDkbMWdg==",
         "dependencies": {
-          "OrchardCore.DisplayManagement": "1.5.0",
-          "OrchardCore.Recipes.Abstractions": "1.5.0"
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.Recipes.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.DisplayManagement.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "NzwL17Gx46J4s7KDOb+WOBwstaWQpfS7oFvCU6MuroFJH7ymdPlmNgqU8Rl5Q4T+IbC6Oc8ES+gFGABLVn3OqA=="
+        "resolved": "1.7.2",
+        "contentHash": "ahch2iWUBEyihiAI/NfaY3GnSEeZqOyh338m+/r04qKgv+reR9+d0RVdNte1UpQNK9/5m2Pz7esh52/9KtVoXg=="
       },
       "OrchardCore.DisplayManagement.Liquid": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "bZWEjfBgNF88MTx4/7DjGYUHt9fXkx+occ5lw7EpqxlCdHbxpmbnNm0k2+8cNfl2HZG8Y5n2ImuUJpxSQ54+0w==",
+        "resolved": "1.7.2",
+        "contentHash": "cS5uEtTQ0NDTnu1Lb3a/pyZh+urAtHjoPgxILlUj3LYSrFG+chErORZENG/A6ARzSK2Q8Xlk82UGUssvhYEP5g==",
         "dependencies": {
-          "OrchardCore.DisplayManagement": "1.5.0",
-          "OrchardCore.DynamicCache.Abstractions": "1.5.0",
-          "OrchardCore.Liquid.Abstractions": "1.5.0",
-          "OrchardCore.ResourceManagement.Abstractions": "1.5.0"
+          "OrchardCore.DisplayManagement": "1.7.2",
+          "OrchardCore.DynamicCache.Abstractions": "1.7.2",
+          "OrchardCore.Liquid.Abstractions": "1.7.2",
+          "OrchardCore.ResourceManagement.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.DynamicCache.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "VoMqIKBtGhLVpr82wnmS/rP5JCouQyr++4kQ1hxQFZI2ghnq5Pv4+y12rVLbAKRGSGQUuu0bl2z91DDnWIwINg==",
+        "resolved": "1.7.2",
+        "contentHash": "g0C1MUWp+n7PAljhJufQIVqaXt9fmHs116how6q3Fxu+QrlaI5mBhJUGoSv3BMffsOKihSF48CFQTwwKchajYA==",
         "dependencies": {
-          "OrchardCore.Infrastructure.Abstractions": "1.5.0"
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Indexing.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "VwM6by8i1TbwWA5HDTH72HfUOkDFQJNr/tGiEKSKLvaKWsF+OI/mDI8ZF8xcyX6tNGrjv0C60orhWfG3HK/zwA==",
+        "resolved": "1.7.2",
+        "contentHash": "7KlnMRJPdX5mTGIsNP5iN+zLZt4rsF9FSC9E/+fKReyLFkALZa1Sd37F8wC3K05uNhEAc2ZkYEjJbII6hJ3EGA==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Infrastructure.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "Zi3k7E/u3Pq5u64Hkrl/zztJQui05CQmCO0+R8e7hvxNW+ZdH/qBQvbBL3oFK36mmWkhc8QBCgZMWumsSZ1FaQ==",
+        "resolved": "1.7.2",
+        "contentHash": "yW5TtLoO/bx8f/CKK7QKo+5hsWYkt1RM+Z1btwqjJfpjQJM4PZR1pFsdFo31vbVTyIAm28OoXkXbUpxMjuHpXQ==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0",
-          "OrchardCore.Data.Abstractions": "1.5.0",
-          "OrchardCore.ResourceManagement.Abstractions": "1.5.0"
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Data.Abstractions": "1.7.2",
+          "OrchardCore.ResourceManagement.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Liquid.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "Ah3ci49n0vzfjN7cKuje9MsjkKXNu5RQWbt3RMYfIVvzby6d0n3j6TmdPRux4wGA3ef6+uZMUwRsGsi4iw+dng==",
+        "resolved": "1.7.2",
+        "contentHash": "8i6AIATUHhHdIISuXYo0HLDOUY/5QqJfMa70C22NCpF3gzmeOwDKZ9Us5mq784Yv9bvWUdxrcQyDi/m/8zHYCA==",
         "dependencies": {
-          "Fluid.Core": "2.2.16"
+          "Fluid.Core": "2.4.0"
         }
       },
       "OrchardCore.Localization.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "hiGu3jxdkUQIygPGXUT2RGbol3ZnoQDbUcystyQ6sBIK+qBPkB5ELV7ZIVQYM/hSDMSQ5ho5eYHpUEdpZ5Ff5A=="
+        "resolved": "1.7.2",
+        "contentHash": "oJbJLqzpOEnAk32IgkWTbIU8yhMFCn1QTgN7GivC451dGxYzwNsXN8t4gyZV5Bvpo7yJJ3IsynCTuzru3vtb2A=="
       },
       "OrchardCore.MetaWeblog.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "PL4mEOqDvuFjOSh/o9rPAx00xS8SvcQHKN/sonTTxAMrSu1bG3u1/bc4rYqTuCLG5DzFJJO2FEwDPQ6kYVGtBw==",
+        "resolved": "1.7.2",
+        "contentHash": "e5mYVTZamUPOyIiem99xecy4phXuHtk4VBL7eAXJlR/80IF1fLWkdaastqe3el2lWMDfAZz92isrPAHSoEztwA==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.XmlRpc.Abstractions": "1.5.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.XmlRpc.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Mvc.Core": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "tm5uSPOi+vzh/nbd+Rin9bMUbDPbvYGm/QnE8xvnEhebCS2Bz8waTLi7MLDMAuuiXPQTVqMgzEfDZwS5mbg6qg==",
+        "resolved": "1.7.2",
+        "contentHash": "Kotf9zLItWhK6H/5lhm/nU7syMVvZKMfRc3SEyDRI2csQfClQlYDKpuHyqv1kL89jkkT2bqsu9PiQr2Wj54kZQ==",
         "dependencies": {
-          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.10",
-          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.10",
-          "OrchardCore.Abstractions": "1.5.0",
-          "OrchardCore.DisplayManagement.Abstractions": "1.5.0"
+          "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "6.0.21",
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.21",
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.DisplayManagement.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Navigation.Core": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "yS5y+wXsNhD2OTIHXPKdD0QkwUnUD7Tg7rAvbloxLxbdZNqnUfb2W9Gwqt5C018fmVQZJ6twAfc4rUel8WwUeQ==",
+        "resolved": "1.7.2",
+        "contentHash": "K9qOiqKdjHNkwui4TPvf+K/t4imBFfPN1LW9MRT4eN2roshuGR3hjXMKD6r3hKtFoyLK04iu0IoP16z9tj19GA==",
         "dependencies": {
-          "OrchardCore.Infrastructure.Abstractions": "1.5.0"
+          "OrchardCore.Admin.Abstractions": "1.7.2",
+          "OrchardCore.Infrastructure.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Queries.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "1QMozHd/TmmbChR22lVlC/KrmtaKfne+qrGv5Ds+GDvndnxh6pUXD92IAW56rAGoMJSb1eVLNIVpcxi+qc0r4g=="
+        "resolved": "1.7.2",
+        "contentHash": "JOOvwD0seR0AwIJmEw/GCvgg/cg3cPqxJBX1HXudXa4YmQpoXA7av/Gg4Ay8ecxUPJbdQNXz/NylMR4j3cPV1Q=="
       },
       "OrchardCore.Recipes.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "DatWVMtlSVfZtlvGTKgX92JeLVkKqL773YuDF4g+i9bVk0An17zgPRmrDwgshaYeID0MHxKsvY8CSlf2ReIwCw==",
+        "resolved": "1.7.2",
+        "contentHash": "vpsPWcfczY5be3AGQnYQEO4dW2BpjmG07Uq8+519llqZfTPr+EZpDm15DKmrHnetbMDfL7cgzm7ACh0O9Nm1Fw==",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
-          "OrchardCore.Data.YesSql.Abstractions": "1.5.0"
+          "Newtonsoft.Json": "13.0.3",
+          "OrchardCore.Data.YesSql.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.ResourceManagement": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "/vim1401g52Ic2rBTsF356Fbc9C4yZFuZ5Ms8Y/C0tnKU/7pWizq4Ix6wyTA7xW2XNBadSPw9b6lHFUZpzYAEQ==",
+        "resolved": "1.7.2",
+        "contentHash": "jwu7315eeaiP5jeWex52C2Wc+ergEoKqIiS2ks0twwunH2Z66lLr+MDGo1HgrsNY3pkzPtf7bAM9M6Ne0ZTG7g==",
         "dependencies": {
-          "OrchardCore.ResourceManagement.Core": "1.5.0"
+          "OrchardCore.ResourceManagement.Core": "1.7.2"
         }
       },
       "OrchardCore.ResourceManagement.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "qvaUTNCTSjbihmRn9GT8r+ThkcUw0PBEcSXeZqB+wr34Ex0YUYDLn+qZ2RBJ1kwUJau85omDvJdzcQveZJSSSQ=="
+        "resolved": "1.7.2",
+        "contentHash": "8Ux+u9/w+U8nnc0Hqz/+w+6d7FDLvtfoLgP5C78pawkSbUvtUrJTzOOUEi5KYVWi/R1YMW+Gv7qIjPnsOXJCzg=="
       },
       "OrchardCore.ResourceManagement.Core": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "bA4T7M9cJP5Z/h8uMPDjtzzoD9MPJ5xxUdfmIYfrIjCC6UY2lKnRuOWcmtQmM+ZApRm95E9JBVEc5YC0i/Qncw==",
+        "resolved": "1.7.2",
+        "contentHash": "iQelGWS0MVd1zrB0f/dUOpUvBiatWWGxb6qex0fh3FpzZS1vF+tbbDluJsN7vtXlfXwrYeoiJpJKRh0rGuoJFw==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0",
-          "OrchardCore.ResourceManagement.Abstractions": "1.5.0"
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.ResourceManagement.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Settings.Core": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "wNuTML0ozyvonzBSZ/+wpyH8Ua+fkxgZezVSt+FYwgQGBnL2its55wPtEmgKlIsd+lws1GFrut/zmylCcLxkqQ==",
+        "resolved": "1.7.2",
+        "contentHash": "nPdPB1KmK2Y+QXMn2V+sjyHeM6FDR/y1iiUKINMDNEI+E1eGRVLWMhVxdC19f9OP8GKi8gQPlVO5YRdJumEj9Q==",
         "dependencies": {
-          "OrchardCore.Abstractions": "1.5.0",
-          "OrchardCore.Deployment.Abstractions": "1.5.0"
+          "OrchardCore.Abstractions": "1.7.2",
+          "OrchardCore.Deployment.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.Sitemaps.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "XJJiZuD0dAkhaMSdG1lKIh19cnxPq4LS0zvC2rAsI7qC0bOlUpNVMsKkNYerpvumrTUiy7yBSByw0M24dsrnTQ==",
+        "resolved": "1.7.2",
+        "contentHash": "DoN9pT4ju6m28x867eQFdIcj0aIHhaNsvf/tHRsE6zRyY9sx75sbNGc4m8jDuMv0aTOhTJU6YlQGOM8EEYeYdQ==",
         "dependencies": {
-          "OrchardCore.ContentManagement.Abstractions": "1.5.0",
-          "OrchardCore.DisplayManagement.Abstractions": "1.5.0"
+          "OrchardCore.ContentManagement.Abstractions": "1.7.2",
+          "OrchardCore.DisplayManagement.Abstractions": "1.7.2"
         }
       },
       "OrchardCore.XmlRpc.Abstractions": {
         "type": "Transitive",
-        "resolved": "1.5.0",
-        "contentHash": "O6nxCD3g9BP0ief3rKECd+4SyFDkgf486vcSu7kgtxzVBhjzLOTMAhfM4N8Qj995I/bmP8qT2kla8LIPDiJvSg=="
+        "resolved": "1.7.2",
+        "contentHash": "TRdsAMh7mdgP20YCBPdoz435sIiXyDi4odbDbheb8XeEzvrBj+w1Nl/h42cV+DxVNA08v6+uhZxcZwxdmlexMw=="
       },
       "Parlot": {
         "type": "Transitive",
-        "resolved": "0.0.23",
-        "contentHash": "+Ts7GN++fLX5OOJfmnhzkKWBAovfykfnoZKT844Lnu3a/aNIvQFqdlZ8/b/SY9vE0+ho02/XnzbzWoXddceeDA=="
+        "resolved": "0.0.24",
+        "contentHash": "jdhTa3NK1Vy8CdiWitfIPfQfmg9KvEdrVSYU6wquPQxF4FfGGtuTZyeduUDWDwU51ql6X9o/mDpHqHQQUy5k6w=="
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": {
         "type": "Transitive",
@@ -945,33 +948,32 @@
       },
       "SQLitePCLRaw.bundle_e_sqlite3": {
         "type": "Transitive",
-        "resolved": "2.0.6",
-        "contentHash": "zssYqiaucyGArZfg74rJuzK0ewgZiidsRVrZTmP7JLNvK806gXg6PGA46XzoJGpNPPA5uRcumwvVp6YTYxtQ5w==",
+        "resolved": "2.1.2",
+        "contentHash": "ilkvNhrTersLmIVAcDwwPqfhUFCg19Z1GVMvCSi3xk6Akq94f4qadLORQCq/T8+9JgMiPs+F/NECw5uauviaNw==",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.6",
-          "SQLitePCLRaw.lib.e_sqlite3": "2.0.6",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.0.6"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.2",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.2"
         }
       },
       "SQLitePCLRaw.core": {
         "type": "Transitive",
-        "resolved": "2.0.6",
-        "contentHash": "Vh8n0dTvwXkCGur2WqQTITvk4BUO8i8h9ucSx3wwuaej3s2S6ZC0R7vqCTf9TfS/I4QkXO6g3W2YQIRFkOcijA==",
+        "resolved": "2.1.2",
+        "contentHash": "A8EBepVqY2lnAp3a8jnhbgzF2tlj2S3HcJQGANTYg/TbYbKa8Z5cM1h74An/vy0svhfzT7tVY0sFmUglLgv+2g==",
         "dependencies": {
           "System.Memory": "4.5.3"
         }
       },
       "SQLitePCLRaw.lib.e_sqlite3": {
         "type": "Transitive",
-        "resolved": "2.0.6",
-        "contentHash": "xlstskMKalKQl0H2uLNe0viBM6fvAGLWqKZUQ3twX5y1tSOZKe0+EbXopQKYdbjJytNGI6y5WSKjpI+kVr2Ckg=="
+        "resolved": "2.1.2",
+        "contentHash": "zibGtku8M4Eea1R3ZCAxc86QbNvyEN17mAcQkvWKBuHvRpMiK2g5anG4R5Be7cWKSd1i6baYz8y4dMMAKcXKPg=="
       },
       "SQLitePCLRaw.provider.e_sqlite3": {
         "type": "Transitive",
-        "resolved": "2.0.6",
-        "contentHash": "peXLJbhU+0clVBIPirihM1NoTBqw8ouBpcUsVMlcZ4k6fcL2hwgkctVB2Nt5VsbnOJcPspQL5xQK7QvLpxkMgg==",
+        "resolved": "2.1.2",
+        "contentHash": "lxCZarZdvAsMl2zw9bXHrXK6RxVhB4b23iTFhCOdHFhxfbsxLxWf+ocvswJwR/9Wh/E//ddMi+wJGqUKV7VwoA==",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.6"
+          "SQLitePCLRaw.core": "2.1.2"
         }
       },
       "System.AppContext": {
@@ -1811,92 +1813,92 @@
       },
       "TimeZoneConverter": {
         "type": "Transitive",
-        "resolved": "3.5.0",
-        "contentHash": "ziTcQ5rVxRdtWJEnEqhKBukZGuUQregbf5G7QRrFKj6CwBLss5tSz0dlSHy9gzi5M5ES0PNQ0K2ACP/0XVT5Ow=="
+        "resolved": "6.0.1",
+        "contentHash": "vvhLOgRSOvfq5fBv0/Dd1S3N7K2ibO5wp06B5AkuxUpXkgv2aDHw9jB5ZvPg83y9sy+jF9qE7qWybMK46BXBuw=="
       },
       "YesSql": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "0zb/ZsKS9GQzsVfYvU44UYgjSEcfYpLbT6rqKwJ5NsB+QiygnBhZQWCLwOiQ4DG/VWSswE2I3CS6RsSPkcDuwg==",
+        "resolved": "3.4.0",
+        "contentHash": "Od9Yg7zMhjT3uZ/rcTedvt3qYiE0gBGu/mX6lEzdDXzYSrg1kVgSurq3Bwx02NuITFY+2P1X02rzl+Pk78JU2w==",
         "dependencies": {
-          "YesSql.Abstractions": "3.2.0",
-          "YesSql.Core": "3.2.0",
-          "YesSql.Provider.MySql": "3.2.0",
-          "YesSql.Provider.PostgreSql": "3.2.0",
-          "YesSql.Provider.SqlServer": "3.2.0",
-          "YesSql.Provider.Sqlite": "3.2.0"
+          "YesSql.Abstractions": "3.4.0",
+          "YesSql.Core": "3.4.0",
+          "YesSql.Provider.MySql": "3.4.0",
+          "YesSql.Provider.PostgreSql": "3.4.0",
+          "YesSql.Provider.SqlServer": "3.4.0",
+          "YesSql.Provider.Sqlite": "3.4.0"
         }
       },
       "YesSql.Abstractions": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "K/lIyrXwjn7coSp9/VN0u1dWI/pU8SeNT8oYonj+XUL5enV6oy38Gbz/E615FZoJ+sQ1pgmuVaOfu3Yz9GR20g==",
+        "resolved": "3.4.0",
+        "contentHash": "BtTIKX1ASP4x4i4EibVBaEBwVKmJPHc0I2LxfWBB5WkGEKvHDgmRVNKB5QuGVh1hQnog6VsCir4pokayAjpeXQ==",
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "3.1.0"
         }
       },
       "YesSql.Core": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "8ZICAKAQdsE4oYAW6ScROZ51O8QqXoUiI9kD7P/Kmc6b17ltaharlZ1/m9M/Zd7M7SurhA0TxAwxiOmOCvICUA==",
+        "resolved": "3.4.0",
+        "contentHash": "MHGQW8GFEKkZ0tsMDIDv8uTqN2YpCD1L9aJ1u0pE/lbASVFiKq6/ST9X0ODlVhw+KTGVlMXktALEv0VaMJSf6A==",
         "dependencies": {
           "Dapper.StrongName": "2.0.123",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.0",
-          "Newtonsoft.Json": "13.0.1",
-          "YesSql.Abstractions": "3.2.0"
+          "Newtonsoft.Json": "13.0.2",
+          "YesSql.Abstractions": "3.4.0"
         }
       },
       "YesSql.Filters.Abstractions": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "NazVZbY3blHEoHcHkcuH6L+VgLg14OFcAuVtUw/Dczss5dd1hVeVkbxv3PMjSsKBkHXGlOFixs2M2g2c0etUaA==",
+        "resolved": "3.4.0",
+        "contentHash": "VfJnu1ZSSFFutlBuS8B40Kt2A3h6IHERLIWX504o8Lpx6G50/JfChbyTY5NatyPyZhsMW+dbwrNL85owvQR5IA==",
         "dependencies": {
-          "Parlot": "0.0.23"
+          "Parlot": "0.0.24"
         }
       },
       "YesSql.Filters.Query": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "9e/ZohI01ZIYzwSjA0C3CQEOMeelxfOIMPKE/Y8QXhqu/NdjKMlPRK/CcgFgske5nOZi0DHC5kPqt1il4Fyydw==",
+        "resolved": "3.4.0",
+        "contentHash": "GViiRYygC0tn4Wk5tlurYgZ4K+4rbQKEqyZwE/e3xPkzjMzcDihBINpLDdIPj3Qiqa0SjsAVo3+qBIbN4GsQmA==",
         "dependencies": {
-          "YesSql.Abstractions": "3.2.0",
-          "YesSql.Filters.Abstractions": "3.2.0"
+          "YesSql.Abstractions": "3.4.0",
+          "YesSql.Filters.Abstractions": "3.4.0"
         }
       },
       "YesSql.Provider.MySql": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "A6gojoKmWUbKrCsO3v/s+IKGUAWFF0w0E5JarjrnZ/0wh8SHDhlK9o3Ghs4x0hORxR9PH858cl+3hqWejSeVoQ==",
+        "resolved": "3.4.0",
+        "contentHash": "Fm0DOzg8wePWznvrmzTHnzStsi3Kddw6tB0kisRkeV9f1nLbkWWS4hH3dCrN21Q9Bt/HJqlYuPUXgHHEnJgMDg==",
         "dependencies": {
-          "MySqlConnector": "2.1.13",
-          "YesSql.Core": "3.2.0"
+          "MySqlConnector": "2.2.1",
+          "YesSql.Core": "3.4.0"
         }
       },
       "YesSql.Provider.PostgreSql": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "tIM9lBHPYvY0rrH3MqeLCVNkXzrQ5Z+alzyoYrIHAT4QBYJU21mMV0nTJV0SKLobuMFMvAAAtzG3JwuiQba/KQ==",
+        "resolved": "3.4.0",
+        "contentHash": "9w9VpOWJmqTR6Z6/zEvLQI2wRZvgN+B/ZvnCcjuDllWS5yPphzwhKNxwONFoLyNGQ3+05WPWCpii6Sr/3COjrw==",
         "dependencies": {
-          "Npgsql": "6.0.7",
-          "YesSql.Core": "3.2.0"
+          "Npgsql": "7.0.0",
+          "YesSql.Core": "3.4.0"
         }
       },
       "YesSql.Provider.Sqlite": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "EhgILhRclZVhlgB1HkmqmawQwZbEKHkfmBGfy85mEUf8sRCcaXCOgWKrC/vj0Lxp2xGqa+dYoMcPr4kIwQQs5g==",
+        "resolved": "3.4.0",
+        "contentHash": "q1C524O9oBBMQDuv8sz+P/mLa3fuI48NJLJ5OJchsMSBpmh1gpHglRSqu8UXTECJRiI5B/PXFLELQdzZCMPslg==",
         "dependencies": {
-          "Microsoft.Data.Sqlite": "6.0.9",
-          "YesSql.Core": "3.2.0"
+          "Microsoft.Data.Sqlite": "7.0.0",
+          "YesSql.Core": "3.4.0"
         }
       },
       "YesSql.Provider.SqlServer": {
         "type": "Transitive",
-        "resolved": "3.2.0",
-        "contentHash": "HMC0o4kKVdaOsnHMVj2If/2PHyxAilBFQXUn4/ZnJjkSDn/JYnmZR2JZh6srw8qI4jpfzCw9Zf/JwQ0aLZMvaQ==",
+        "resolved": "3.4.0",
+        "contentHash": "7VYTPu81/e5uiInLJ1+jCgulbXTeMPHNq4F41a/AiZWf7vNIHJZBixcvRKCRCFIZFKsV+ViIcIS9NTnFEC+EQw==",
         "dependencies": {
-          "Microsoft.Data.SqlClient": "5.0.0",
-          "YesSql.Core": "3.2.0"
+          "Microsoft.Data.SqlClient": "5.0.1",
+          "YesSql.Core": "3.4.0"
         }
       },
       "ZString": {
